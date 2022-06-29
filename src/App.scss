@@ -1,0 +1,29 @@
+.app-container {
+  // height: 100vh;
+}
+// .ant-table-filter-trigger{
+//   display: none;
+// }
+// .hello{
+//   background-color: red !important;
+//   width: 100vh !important;
+//   width: 100vw !important;
+// }
+.inputContainer{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  width: 40%;
+  margin: 0 auto;
+  margin-top: 30rem;
+  justify-items: center;
+  justify-content: center;
+  &>div{
+    width:100%
+  }
+  input{
+    width: 100%;
+  }
+}
+.btn{
+  display: block;
+}
